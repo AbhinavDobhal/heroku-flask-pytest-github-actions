@@ -7,3 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 def root():
     return "flask home page for api"
+
+
+if __name__ == "__main__":
+    app.run()
